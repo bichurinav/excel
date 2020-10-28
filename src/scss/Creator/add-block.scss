@@ -1,0 +1,43 @@
+.add-block {
+  background: #eee;
+  min-height: $creator-add-height;
+
+  &__list {
+    display: flex;
+    align-items: center;
+    min-height: $creator-add-height;
+  }
+
+  &__item {
+    width: 160px;
+    height: 160px;
+    background: #fff;
+    box-shadow: 0 2px 2px silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 8px;
+    margin-right: 20px;
+    transition: all .25s;
+    &:hover {
+      cursor: pointer;
+      opacity: .777;
+      color: $theme-color;
+      transform: translateY(3px);
+    }
+  }
+
+  &__icon-add {
+    font-size: 60px;
+    color: $theme-color;
+  }
+
+  &__name {
+    position: absolute;
+    bottom: 20px;
+    font-size: 16px;
+    color: gray;
+  }
+
+}

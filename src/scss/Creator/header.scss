@@ -1,0 +1,21 @@
+.header-creator {
+  width: 100%;
+  box-shadow: 0 2px 5px $border-color;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  &__title {
+    color: $theme-color;
+    margin: 0;
+  }
+
+  &__block-name {
+    margin: 0 auto;
+    font-size: 20px;
+  }
+
+}
